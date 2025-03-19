@@ -27,7 +27,7 @@
 }
 
 /* GRANDES TELAS */
-@media screen and (min-width: 923px) {
+@media screen and (min-width: 923px) and (max-width: 4000px) {
   body {
     background-image: linear-gradient(to top, #49a09d, #5f2c82);
   }
