@@ -24,6 +24,7 @@
   .area-formulario > h1 {
     padding: 2px;
 }
+}
 
 /* GRANDES TELAS */
 @media screen and (min-width: 923px) {
