@@ -1,0 +1,58 @@
+/* estilos personalizados */
+
+/*TABLET*/
+@media screen and (min-width: 768px) and (max-width: 922px) {
+  body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  }
+  .container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    height: 280px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+  }
+  .area-foto {
+    width: 50%;
+    height: 280px;
+    background: black url(../imagens/opção-2.jpg) no-repeat center bottom;
+    background-size: cover;
+    border-radius: 19px 0px 0px 19px;
+  }
+  .area-formulario > h1 {
+    padding: 2px;
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 923px) {
+  body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  }
+  .container {
+    display: flex;
+    width: 950px;
+    height: 350px;
+    margin: auto;
+  }
+  .area-formulario{
+    order: 1;
+    width: 50%;
+    font-size: 1em;
+  }
+  .area-formulario h1 {
+    padding-bottom: 20px;
+    font-size: 2em;
+  }
+  .area-formulario p {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+  }
+  .area-foto {
+    order: 2;
+    width: 50%;
+    height: 350px;
+    border-radius: 0px 19px 19px 0px;
+  }
+}

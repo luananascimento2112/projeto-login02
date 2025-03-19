@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos/style.css" media="all" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+  </head>
+  <body>
+    <main class="area-total">
+      <section class="container">
+        <div class="area-foto"></div>
+        <div class="area-formulario">
+          <h1>Login</h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e
+            poder fazer as configurações no seu ambiente.
+          </p>
+          <form action="">
+            <div class="form-field">
+                <span class="material-symbols-outlined">
+                    person
+                    </span>
+              
+              <input
+                type="email"
+                name="nome-email"
+                id="iemail"
+                required
+                placeholder="seu email"
+              />
+              <label for="iemail">Email</label>
+            </div>
+            <div class="form-field">
+                <span class="material-symbols-outlined">
+                    vpn_key
+                    </span>
+              
+              <input
+                type="password"
+                name="nome-senha"
+                id="isenha"
+                required
+                placeholder="sua senha"
+              />
+              <label for="isenha">Senha</label>
+            </div>
+            <div class="botao-entrar">
+              <input type="submit" value="Entrar" />
+            </div>
+            <div class="botao-esqueci-senha" >
+              <a href="#">Esqueci a senha <span class="material-symbols-outlined icone-carta "  >
+                mail
+                </span></a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
